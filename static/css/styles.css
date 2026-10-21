@@ -1,0 +1,450 @@
+/* ==============================================================
+   MERIDIAN Human-Crafted Enterprise Analytics Platform
+   Total UI Theme & Colors Design System
+   Palettes: 
+     1. Warm Sand & Forest Teal (Default)
+     2. Oxford Navy & Cobalt
+     3. Matte Graphite Dark
+     4. Swiss Monochrome & Coral
+   ============================================================== */
+
+/* -------------------------------------------------------------
+   THEME 1: WARM SAND & FOREST TEAL (DEFAULT)
+   Artisanal, Scandinavian Editorial, Warm Linen Paper
+   ------------------------------------------------------------- */
+:root,
+[data-theme="warm-sand"] {
+    --bg-page: #f7f5f0;          /* Warm linen / oatmeal */
+    --bg-header: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f0ece1;   /* Soft warm stone */
+    --bg-card-hover: #faf9f6;
+    --bg-input: #ffffff;
+    
+    --border-color: #e4ded3;     /* Warm stone border */
+    --border-strong: #d2c8b8;
+    
+    --text-primary: #1c1917;     /* Warm deep espresso/stone 900 */
+    --text-secondary: #44403c;   /* Stone 700 */
+    --text-muted: #78716c;       /* Stone 500 */
+    --text-faint: #a8a29e;       /* Stone 400 */
+    
+    --brand-primary: #0f766e;    /* Deep Forest Teal */
+    --brand-primary-light: #f0fdfa;
+    --brand-primary-border: #99f6e4;
+    
+    --brand-accent: #c2410c;     /* Warm Terracotta */
+    --brand-accent-light: #fff7ed;
+    --brand-accent-border: #fed7aa;
+    
+    --brand-success: #15803d;    /* Sage Pine */
+    --brand-success-light: #f0fdf4;
+    --brand-success-border: #bbf7d0;
+    
+    --brand-warning: #b45309;    /* Warm Ochre Amber */
+    --brand-warning-light: #fffbeb;
+    --brand-warning-border: #fde68a;
+    
+    --brand-danger: #be123c;     /* Deep Rose Terracotta */
+    --brand-danger-light: #fff1f2;
+    --brand-danger-border: #fecdd3;
+    
+    --shadow-card: 0 1px 3px 0 rgba(44, 38, 30, 0.04), 0 1px 2px -1px rgba(44, 38, 30, 0.04);
+    --shadow-card-hover: 0 4px 10px -1px rgba(44, 38, 30, 0.08);
+    
+    --chart-grid: #ece7dc;
+    --chart-tick: #78716c;
+    --chart-c1: #0f766e;         /* Forest Teal */
+    --chart-c2: #c2410c;         /* Terracotta */
+    --chart-c3: #b45309;         /* Warm Ochre */
+    --chart-c4: #4338ca;         /* Slate Indigo */
+    --chart-c5: #15803d;         /* Sage Pine */
+    --chart-area: rgba(15, 118, 110, 0.08);
+}
+
+/* -------------------------------------------------------------
+   THEME 2: OXFORD NAVY & ROYAL COBALT
+   Prestigious Financial Enterprise, Crisp Mist & Oxford Blue
+   ------------------------------------------------------------- */
+[data-theme="oxford-navy"] {
+    --bg-page: #edf2f7;          /* Cool mist */
+    --bg-header: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #e2e8f0;
+    --bg-card-hover: #f8fafc;
+    --bg-input: #ffffff;
+    
+    --border-color: #cbd5e1;
+    --border-strong: #94a3b8;
+    
+    --text-primary: #0f172a;     /* Deep Oxford Slate */
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --text-faint: #94a3b8;
+    
+    --brand-primary: #1e3a8a;    /* Oxford Navy */
+    --brand-primary-light: #eff6ff;
+    --brand-primary-border: #bfdbfe;
+    
+    --brand-accent: #0284c7;     /* Sky Blue */
+    --brand-accent-light: #f0f9ff;
+    --brand-accent-border: #bae6fd;
+    
+    --brand-success: #047857;    /* Forest Emerald */
+    --brand-success-light: #ecfdf5;
+    --brand-success-border: #a7f3d0;
+    
+    --brand-warning: #d97706;    /* Amber */
+    --brand-warning-light: #fffbeb;
+    --brand-warning-border: #fde68a;
+    
+    --brand-danger: #b91c1c;     /* Crimson */
+    --brand-danger-light: #fef2f2;
+    --brand-danger-border: #fecaca;
+    
+    --shadow-card: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+    --shadow-card-hover: 0 4px 8px -1px rgba(15, 23, 42, 0.09);
+    
+    --chart-grid: #e2e8f0;
+    --chart-tick: #64748b;
+    --chart-c1: #1e3a8a;         /* Oxford Navy */
+    --chart-c2: #0284c7;         /* Sky */
+    --chart-c3: #047857;         /* Emerald */
+    --chart-c4: #d97706;         /* Amber */
+    --chart-c5: #6366f1;         /* Indigo */
+    --chart-area: rgba(30, 58, 138, 0.08);
+}
+
+/* -------------------------------------------------------------
+   THEME 3: MATTE GRAPHITE DARK & WARM BRONZE
+   Understated Charcoal & Zinc, Zero Neon
+   ------------------------------------------------------------- */
+[data-theme="graphite-dark"] {
+    --bg-page: #121215;          /* Matte Charcoal */
+    --bg-header: #18181c;        /* Zinc 900 */
+    --bg-card: #1d1d22;          /* Zinc 850 */
+    --bg-card-subtle: #161619;
+    --bg-card-hover: #26262c;
+    --bg-input: #141417;
+    
+    --border-color: #2c2c33;     /* Matte dark border */
+    --border-strong: #3f3f47;
+    
+    --text-primary: #f4f4f6;     /* Zinc 100 */
+    --text-secondary: #d4d4d8;   /* Zinc 300 */
+    --text-muted: #a1a1aa;       /* Zinc 400 */
+    --text-faint: #71717a;       /* Zinc 500 */
+    
+    --brand-primary: #38bdf8;    /* Muted Sky */
+    --brand-primary-light: rgba(56, 189, 248, 0.12);
+    --brand-primary-border: rgba(56, 189, 248, 0.3);
+    
+    --brand-accent: #f59e0b;     /* Warm Bronze Amber */
+    --brand-accent-light: rgba(245, 158, 11, 0.12);
+    --brand-accent-border: rgba(245, 158, 11, 0.3);
+    
+    --brand-success: #10b981;    /* Emerald */
+    --brand-success-light: rgba(16, 185, 129, 0.12);
+    --brand-success-border: rgba(16, 185, 129, 0.3);
+    
+    --brand-warning: #fbbf24;
+    --brand-warning-light: rgba(251, 191, 36, 0.12);
+    --brand-warning-border: rgba(251, 191, 36, 0.3);
+    
+    --brand-danger: #f87171;
+    --brand-danger-light: rgba(248, 113, 113, 0.12);
+    --brand-danger-border: rgba(248, 113, 113, 0.3);
+    
+    --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    --shadow-card-hover: 0 4px 12px 0 rgba(0, 0, 0, 0.6);
+    
+    --chart-grid: #282830;
+    --chart-tick: #a1a1aa;
+    --chart-c1: #38bdf8;
+    --chart-c2: #f59e0b;
+    --chart-c3: #10b981;
+    --chart-c4: #a78bfa;
+    --chart-c5: #fb7185;
+    --chart-area: rgba(56, 189, 248, 0.1);
+}
+
+/* -------------------------------------------------------------
+   THEME 4: MODERNIST SWISS MONOCHROME & SIGNAL CORAL
+   Stark High-Contrast Ink, Precision Layout
+   ------------------------------------------------------------- */
+[data-theme="swiss-mono"] {
+    --bg-page: #fbfbfb;          /* Pure stark off-white */
+    --bg-header: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f0f0f2;
+    --bg-card-hover: #ffffff;
+    --bg-input: #ffffff;
+    
+    --border-color: #e4e4e7;
+    --border-strong: #71717a;
+    
+    --text-primary: #09090b;     /* Pure Ink */
+    --text-secondary: #27272a;
+    --text-muted: #52525b;
+    --text-faint: #71717a;
+    
+    --brand-primary: #09090b;    /* Ink */
+    --brand-primary-light: #f4f4f5;
+    --brand-primary-border: #d4d4d8;
+    
+    --brand-accent: #f43f5e;     /* Signal Coral */
+    --brand-accent-light: #fff1f2;
+    --brand-accent-border: #fecdd3;
+    
+    --brand-success: #059669;
+    --brand-success-light: #ecfdf5;
+    --brand-success-border: #a7f3d0;
+    
+    --brand-warning: #ea580c;
+    --brand-warning-light: #fff7ed;
+    --brand-warning-border: #fed7aa;
+    
+    --brand-danger: #e11d48;
+    --brand-danger-light: #fff1f2;
+    --brand-danger-border: #fecdd3;
+    
+    --shadow-card: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+    --shadow-card-hover: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+    
+    --chart-grid: #f0f0f2;
+    --chart-tick: #71717a;
+    --chart-c1: #09090b;
+    --chart-c2: #f43f5e;
+    --chart-c3: #059669;
+    --chart-c4: #ea580c;
+    --chart-c5: #6366f1;
+    --chart-area: rgba(9, 9, 11, 0.06);
+}
+
+/* -------------------------------------------------------------
+   GLOBAL BASE STYLES
+   ------------------------------------------------------------- */
+body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Minimalist Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* -------------------------------------------------------------
+   CARD COMPONENT ARCHITECTURE
+   ------------------------------------------------------------- */
+.ent-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-card);
+    border-radius: 0.75rem;
+    transition: box-shadow 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
+}
+.ent-card:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.kpi-stat-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-card);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
+}
+.kpi-stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-primary);
+    box-shadow: var(--shadow-card-hover);
+}
+
+/* -------------------------------------------------------------
+   SEGMENTED CONTROL NAVIGATION TABS
+   ------------------------------------------------------------- */
+.nav-tab-container {
+    background-color: var(--bg-card-subtle);
+    border: 1px solid var(--border-color);
+    border-radius: 0.625rem;
+    padding: 0.25rem;
+}
+
+.nav-tab-btn {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.45rem 0.85rem;
+    border-radius: 0.5rem;
+    transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+    white-space: nowrap;
+    border: 1px solid transparent;
+}
+.nav-tab-btn:hover {
+    color: var(--text-primary);
+    background-color: rgba(148, 163, 184, 0.12);
+}
+.nav-tab-btn.active {
+    background-color: var(--bg-card) !important;
+    color: var(--brand-primary) !important;
+    border-color: var(--border-color) !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+.nav-tab-btn.active i {
+    color: var(--brand-primary) !important;
+}
+
+/* -------------------------------------------------------------
+   FORM INPUTS & SELECTS
+   ------------------------------------------------------------- */
+.ent-select, .ent-input {
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.ent-select:focus, .ent-input:focus {
+    outline: none;
+    border-color: var(--brand-primary);
+    box-shadow: 0 0 0 3px var(--brand-primary-light);
+}
+
+/* -------------------------------------------------------------
+   OLAP OPERATION BUTTONS
+   ------------------------------------------------------------- */
+.olap-btn {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.85rem;
+    transition: all 0.15s ease;
+}
+.olap-btn:hover {
+    background-color: var(--bg-card-subtle);
+    color: var(--text-primary);
+    border-color: var(--border-strong);
+}
+.olap-btn.active {
+    background-color: var(--brand-primary) !important;
+    color: #ffffff !important;
+    border-color: var(--brand-primary) !important;
+    box-shadow: 0 2px 4px -1px rgba(15, 118, 110, 0.3);
+}
+
+/* -------------------------------------------------------------
+   RECOMMENDER PRODUCT CATALOG CARDS
+   ------------------------------------------------------------- */
+.prod-catalog-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-card);
+    border-radius: 0.625rem;
+    padding: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease;
+}
+.prod-catalog-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-primary);
+    box-shadow: var(--shadow-card-hover);
+}
+.prod-catalog-card.selected {
+    background-color: var(--brand-primary-light);
+    border-color: var(--brand-primary);
+    box-shadow: 0 0 0 1.5px var(--brand-primary);
+}
+
+/* -------------------------------------------------------------
+   TABLES (CLEAN ENTERPRISE GRID)
+   ------------------------------------------------------------- */
+.ent-table th {
+    background-color: var(--bg-card-subtle);
+    color: var(--text-muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    padding: 0.65rem 0.85rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.ent-table td {
+    padding: 0.65rem 0.85rem;
+    font-size: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+.ent-table tbody tr:hover {
+    background-color: var(--bg-card-hover);
+}
+
+/* Matrix Heatmap Cells */
+.matrix-cell {
+    padding: 5px 2px;
+    min-width: 42px;
+    border: 1px solid var(--border-color);
+    font-size: 0.65rem;
+    font-family: 'JetBrains Mono', monospace;
+    transition: all 0.1s ease;
+}
+.matrix-cell:hover {
+    outline: 2px solid var(--brand-primary);
+    z-index: 10;
+    position: relative;
+    transform: scale(1.08);
+}
+
+/* Range Sliders */
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    background: var(--bg-card-subtle);
+    border: 1px solid var(--border-color);
+    border-radius: 9999px;
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--brand-primary);
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+input[type=range]::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+/* Tab Pane Fade */
+.tab-pane {
+    animation: fadeIn 0.15s ease-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(2px); }
+    to { opacity: 1; transform: translateY(0); }
+}
